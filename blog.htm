@@ -1,8 +1,8 @@
 <html>
       
   <head>
-      
-        <style type="text/css">
+      <a name="top"></a>
+         <style type="text/css">
           body {
              background color: #C2A7F2;
              font-family: sans serif;
@@ -21,6 +21,16 @@
       </style>
       
       <tile>Black Goose Bistro Blog</tile>
+      
+      <script language="javascript" type="text/javascript">
+        <!--
+            function popitup(url) {
+            newwindow=window.open (url,'name','height=200,width=150');
+            return false;
+        }
+        // -->
+    </script>
+      
     </head>
     
     <body>
@@ -78,27 +88,30 @@
         
         
 <p>
-<a href="sushi.htm" target="new"><img
+<a href="sushi.htm" onclick="return popitup('sushi.htm')"><img
 src="images/blog_enteries/sushi.jpeg" alt="mouthwatering sushi" width="75" height="100" border="0"></a>
 A mouthwatering alaskan roll
+    
 </p> 
             
 <p>
-<a href="pizza.htm" target="new"><img
+<a href="pizza.htm" onclick="return popitup('pizza.htm')"><img
 src="images/blog_enteries/pizza.jpeg" alt="tasty pizza" width="75" height="100" border="0"></a>
 A tasty margherita pizza
 </p> 
     
 <p>
-<a href="scallops.htm" target="new"><img
+<a href="scallops.htm" target="_top"><img
 src="images/blog_enteries/scallops.jpeg" alt="tasty pizza" width="75" height="100" border="0"></a>
 Some juicy fried scallops
+<a href="#top">back to the top</a>
 </p>
 
 <p>
-<a href="matcha2.htm" target="new"><img
+<a href="matcha2.htm" target="_parent"><img
 src="images/blog_enteries/matcha2.jpeg" alt="matcha donuts" width="75" height="100" border="0"></a>
 Sweet matcha icecream for desert
+<a href="#top">?</a>
 </p>
             
     </body>
