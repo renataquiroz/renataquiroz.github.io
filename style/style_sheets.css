@@ -1,0 +1,44 @@
+body {
+    background-color: #faf8c8;
+}
+h6 {
+    background-color: blue;
+    color: white;
+    font-size: 2em;
+}
+p {
+    color: red; background color: aqua; width: 400px;
+}
+ol {
+    list-style-type: lower-roman;
+    background-image: url("yeet.png");
+    background-size: 350px 170px;
+    background-repeat: no-repeat;
+}
+li {
+    margin: 10; 2 font-weight: bold;
+}
+a:link {
+    text-decoration: none; color:green;
+}
+a:visited {
+    color: green ;
+}
+a:hover {
+    color: red ;
+}
+table {
+    border: 1px solid red; border-top-width: 3px; border-top-color: black;
+}
+td {
+    padding: 10px; border: 1px solid blue;
+}
+span {
+    text-decoration: overline;
+    color: brown;
+    font-size: 2em;
+    font-weight: italic;
+}
+p.special-para {
+    font-size: 1.5em; color: blue;
+}
